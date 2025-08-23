@@ -1,5 +1,6 @@
 :root {
-    --backround-color: #F0F0F0;
+    --backround-color: background: #F0F0F0;
+    background: linear-gradient(175deg, rgba(240, 240, 240, 1) 0%, rgb(200, 200, 200) 100%);
     --btn-color: #2C5222;
     --btn-text-color: #fff;
     --project-card-bg: #ffffff00;
@@ -9,7 +10,8 @@
 }
 
 [data-theme='dark'] {
-    --backround-color: #282828;
+    --backround-color: background: #282828;
+    background: linear-gradient(175deg, rgba(40, 40, 40, 1) 0%, rgba(59, 59, 59, 1) 100%);
     --btn-color: #fff;
     --btn-text-color: #282828;
     --project-card-bg: #fff;
@@ -22,7 +24,8 @@ body {
     background-color: var(--backround-color);
     display: flex;
     justify-content: center;
-    margin: 0 auto 4rem;
+    margin: 0 auto;
+    padding-bottom: 4rem;
 }
 
 #root {
