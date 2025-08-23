@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    span {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    img {
+        width: 1rem;
+    }
+
+
+}
+
+.skillList {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    row-gap: 2.5rem;
+    max-width: 28ch;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+hr {
+    width: 10rem;
+    height: 1px;
+    border: none;
+    background-color: var(--text-color);
+    margin: 2rem auto;
+}
+
+@media (width >=800px) {
+    .skillList {
+        max-width: fit-content;
+        gap: 2rem;
+
+        p {
+            font-size: 1.3rem;
+        }
+
+    }
+
+    hr {
+        width: 20rem;
+    }
+}
